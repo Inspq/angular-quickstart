@@ -37,15 +37,21 @@ Démarrage d'un nouveau projet
 ```
 git clone https://github.com/Inspq/angular-quickstart nom_de_votre_projet
 ```
-2. Tapez la commande suivante pour installer toutes les dépendances du projet
+2. Tapez la commande suivante pour vous rendre dans le répertoire qui contient votre projet
+```
+cd nom_de_votre_projet
+```
+3. Tapez la commande suivante pour installer toutes les dépendances du projet
 ```
 npm install
 ```
-3. Pour lancer les tests unitaires du projet, taper la commande suivante:
+4. Pour lancer les tests unitaires du projet, taper la commande suivante:
+    * Notez que lorsque les tests sont actifs, le code sera recompilé et les tests lancés à nouveau lors de tout changement au code source.
 ```
 npm run test
 ```
-4. Pour lancer le projet, taper la commande suivante:
+5. Pour lancer le projet, taper la commande suivante:
+    * Notez que lorsque le serveur est actif, le code sera recompilé et votre navigateur rafraîchi lors de tout changement au code source.
 ```
 npm start
 ```
@@ -60,4 +66,3 @@ Informations supplémentaires
 2. Apportez un changement au fichier app.component.ts. Par exemple, changer Hello world! pour Bonjour le monde!
     * Votre projet sera recompilé automatiquement et si le serveur est en cours de fonction, l'application sera rechargée
     * Les tests unitaires ne passeront plus, à vous de trouver pourquoi.
-
