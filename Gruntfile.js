@@ -7,10 +7,16 @@ module.exports = function(grunt) {
           cwd: 'src',
           expand: true,
       }
+    },
+    clean: {
+      build: {
+        src:['build/']
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('build', ['copy:template']);
+  grunt.registerTask('build', ['copy:template', 'clean:build']);
 };

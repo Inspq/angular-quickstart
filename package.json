@@ -9,9 +9,10 @@
     "test-once": "tsc && karma start karma.conf.js --single-run",
     "tsc": "tsc",
     "copy-template": "grunt copy:template",
-    "watch-template": "watch \"npm run copy-template\" src/app/"
+    "watch-template": "watch \"npm run copy-template\" src/app/",
+    "clean": "grunt clean:build"
   },
-  "author": "",
+  "author": "Institut national de santé publique du Québec",
   "license": "ISC",
   "devDependencies": {
     "@types/jasmine": "^2.5.53",
@@ -19,6 +20,7 @@
     "concurrently": "^3.5.0",
     "core-js": "^2.4.1",
     "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "jasmine-core": "^2.6.4",
     "karma": "^1.7.0",
