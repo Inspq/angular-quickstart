@@ -33,10 +33,10 @@ Démarrage d'un nouveau projet
 -----------------------------
 
 1. Dans un terminal, rendez vous dans le dossier où se retrouvent vos projets et lancez la commande suivante:
+    * Vous pouvez aussi obtenir un zip à partir de GitHub et l'extraire dans un répertoire appelé nom_de_votre_projet
 ```
 git clone https://github.com/Inspq/angular-quickstart nom_de_votre_projet
 ```
-    * Vous pouvez aussi obtenir un zip à partir de GitHub et l'extraire dans un répertoire appelé nom_de_votre_projet
 2. Tapez la commande suivante pour installer toutes les dépendances du projet
 ```
 npm install
