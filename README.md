@@ -66,3 +66,14 @@ Informations supplémentaires
 2. Apportez un changement au fichier app.component.ts. Par exemple, changer Hello world! pour Bonjour le monde!
     * Votre projet sera recompilé automatiquement et si le serveur est en cours de fonction, l'application sera rechargée
     * Les tests unitaires ne passeront plus, à vous de trouver pourquoi.
+
+Liens utiles
+------------
+
+* Angular.io: http://angular.io
+* Angular Material: https://material.angular.io/
+* Guide d'architecture de Angular: https://angular.io/guide/architecture
+* Documentation sur les tests unitaires: https://angular.io/guide/testing
+* Site officiel de TypeScript: https://www.typescriptlang.org/index.html
+* Tutoriel sur le démarrage d'un projet Angular avec des tests unitaires: https://psamsotha.github.io/angular/2016/12/16/angular2-testing-karma-systemjs.html
+    * Ce tutoriel a été la base de ce projet quickstart
