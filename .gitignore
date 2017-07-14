@@ -1,0 +1,8 @@
+#installation node
+/node_modules
+
+#resultat de la compilation
+/build
+
+#fichier lock
+package-lock.json
