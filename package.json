@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"npm run watch-template\" \"lite-server\" ",
     "test": "tsc && concurrently \"tsc -w\" \"npm run copy-template\" \"karma start karma.conf.js\"",
-    "test-once": "tsc && karma start karma.conf.js --single-run",
+    "test-once": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
     "tsc": "tsc",
     "copy-template": "grunt copy:template",
     "watch-template": "watch \"npm run copy-template\" src/app/",

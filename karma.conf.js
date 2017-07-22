@@ -34,6 +34,7 @@ module.exports = function(config) {
         { pattern: 'node_modules/rxjs/**/*.js.map', included: false, watched: false },
         'karma-test-shim.js',
 
+        { pattern: 'systemjs-angular-loader.js', included: false, watched: false },
         { pattern: 'systemjs.config.js', included: false, watched: false },
         
         { pattern: 'build/tests/unit/**/*.spec.js', included: false, watched: true },
@@ -48,7 +49,7 @@ module.exports = function(config) {
     ],
 
     proxies: {
-        "/app/": "/base/build/app/"
+        "/build/app/": "/base/build/app/"
     },
 
     reporters: ['progress', 'kjhtml'],
